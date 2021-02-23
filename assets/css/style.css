@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,600,700');
+
+body{
+background:#f8f9fa;
+font-family: 'Montserrat', sans-serif;
+font-size:15px;
+color:#636e7b;
+}
+
+section{
+padding:70px 0px 60px 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:#242c36;
+    margin: 0 0 15px 0;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+nav.navbar.bootsnav ul.nav > li > a {
+    color: #6b797c;
+	font-weight:400;
+	font-size:14.2px;
+	font-family: 'Montserrat', sans-serif;
+    background-color: transparent !important;
+}
+
+nav.navbar.bootsnav ul.nav > li > a:hover{
+color:#157efb;
+}
+
+nav.navbar.bootsnav ul.nav > li.active> a{
+color:#157efb;
+}
+
+@media (min-width: 1024px){
+nav.navbar li.dropdown ul.dropdown-menu {
+border-top: solid 5px #157efb !important;
+}
+}
+
+
+.inner-banner{
+background-size:cover !important;
+background-position:center !important;
+padding:7% 0;
+position:relative;
+text-align:center;
+color:#ffffff;
+margin:0;
+}
+.inner-banner .caption{
+position:relative;
+}
+.inner-banner h2{
+color:#ffffff;
+font-weight:400;
+display: block;
+ margin-bottom: 25px;
+}
+.inner-banner p{
+color:#ffffff;
+font-weight:300;
+display: block;
+font-size:20px;
+margin-top:15px;
+}
+.inner-banner p span{
+color:#157efb;
+font-weight: 500;
+}
+.inner-banner:before{
+content:"";
+display:block;
+top:0;
+bottom:0;
+left:0;
+right:0;
+position:absolute;
+background:rgba(12,20,25,0.7);
+}
+
+.inner-banner h2{
+margin-bottom:2px;
+}
+.inner-banner p {
+    margin-top: 2px;
+}
+.basic-information p {
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+
+@media only screen and (min-width: 768px){
+
+.inner-banner h2{
+font-size:72px;
+}
+
+}
+
+.blue-color{
+    color:#157efb;
+}
+
+footer{
+background: #242c36;
+padding: 0px 0 0 0;
+width: 100%;
+bottom: 0;
+position: absolute;
+}
+
+.copy-right{
+padding: 8px 0;
+text-align: center;
+}
+.copy-right a{
+color:#157efb;	
+}
+
+.copy-right p{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+#page-container {
+  position: relative;
+  min-height: 600px;
+}
+
+#content-wrap {
+  padding-bottom: 10px;    /* Footer height */
+}
+
+.table_name
+        	{
+        		background: #387efb;
+			    color: white;
+			    padding-left: 10px;
+			    padding-top: 10px;
+			    padding-bottom: 10px;
+        	}
+        	.section_design
+        	{
+             	background: white;
+             	padding: 30px;
+             	border: 1px solid #eaecf1;
+             	/*box-shadow: 0 5px 25px 0 rgb(0 0 0 / 7%);*/
+        	}
+
+        	@media (min-width: 1024px){
+				nav.navbar .navbar-brand {
+				    margin-top: -7px;
+				}
+			}
